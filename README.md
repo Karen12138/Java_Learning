@@ -6,9 +6,27 @@
 >2. 编译：首先用javac 文件名.java 生成类名.class的字节码文件；
 >3. 运行：其次用java 字节码文件（无后缀）,运行出结果
 ```java
-class helloworld{
+/*  1. class是类，后面接着类名
+    2. main()方法格式固定， 表示程序的入口
+    public static void main(String[] args)
+    3.  java程序严格区分大小写
+    4.  System.out.println();输出数据会换行
+        System.out.println();输出数据不会换行
+    5.  执行语句以；结尾
+ */
+public class HelloWorld{
 	public static void main(String[] args){
 		System.out.println("hello, world");
 }
 }
+
+class HelloJava{
+    public static void main(String[] args){
+        System.out.println("hello, world");
+    }
+}
+/*
+        1. 如果要在class前面加上public，需要将类名和文件名一致
+        2. 一个原文件可以声明多个类，但只能有一个类被public声明
+ */
 ```
